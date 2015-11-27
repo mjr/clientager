@@ -1,0 +1,4 @@
+Django==1.8.7
+django-widget-tweaks==1.4.1
+psycopg2==2.6.1
+six==1.10.0

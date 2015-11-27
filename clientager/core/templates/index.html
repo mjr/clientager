@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-3">Bem-vindo ao Clientager!</h1>
+      <p class="lead">O gerenciador mais sensacional, para ter o maior controle dos seus clientes, você não pode perder esta oportunidade!</p>
+      <hr class="m-y-md">
+      <p>Para dúvidas e mais informações entre em contato com <a href="">contact.clientager@gmail.com</a></p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'subscriptions:subscribe' %}" role="button">Acesse já!</a>
+      </p>
+    </div>
+  </div>
+{% endblock content %}

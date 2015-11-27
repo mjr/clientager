@@ -1,6 +1,8 @@
 #!/bin/bash
-virtualenv venv
+virtualenv -p python3 venv
+pip install --upgrade virtualenv
 source venv/bin/activate
+
 venv/bin/pip install -r requirements.txt
 
 pip install psycopg2
